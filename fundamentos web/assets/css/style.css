@@ -20,17 +20,12 @@ body {
     align-items: center;
     margin: 50px;
 }
+.tit{
+    text-align: center;
+    font-style: italic;
+    padding: 25px;    
+}
 
-.iconcontato {
-    display: flex;
-    justify-content: center;
-    margin-left: 5px;
-}
-.imgsocial {
-    width: 50px;
-    padding: 5;
-    margin-left: 15px;
-}
 .alinharTxtE {
     text-align: left;
 }
@@ -43,24 +38,62 @@ body {
     text-align: right;
 }
 
-/* fornatação de menu no cabeçalho*/
+/* FORMATAÇÃO MENU DO CABEÇALHO */
 #menu {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 3px;
+    padding: 5px;
     background-color: rgba(169, 169, 169, 0.364);        
+
 }
 #menu a {
     font-style: italic;
     font-size: 25px;
-    color: aqua;
-    padding: 15px;
+    color: powderblue;
+    padding: 5px;
+
 }
 #menu a:hover{
     color: gold;
 }
-/* fornatação de imagens no rodapé */
+/* FORMATAÇÃO MENU DO CABEÇALHO */
+
+/* FORMATAÇÃO MENU FLOOTER */
+#mapaflooter{
+    display: flex;
+    flex-direction: column;
+}
+#mapaflooter h2{
+    background-color: rgba(148, 202, 248, 0.234);
+    padding: 5px;
+}
+#mapaflooter ul li{
+    text-align: left;
+    padding: 5px;
+    margin: 3px;
+}
+#mapaflooter ul li a{
+    color: powderblue;
+    padding: 5px;
+    
+}
+
+#mapaflooter ul li a:hover{
+    color:gold
+}
+.iconcontato {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    padding: 10px;
+}
+.imgsocial {
+    width: 50px;
+    padding: 5;
+    margin-left: 15px;
+}
+/* FORMATAÇÃO MENU FLOOTER */
 
 .br50{
     border-radius: 50%;
@@ -68,4 +101,4 @@ body {
 .aBord {
     border-radius: 10%
 }
-/* PAGINA DE CONTATO */
+/* FORMATAÇÃO DE IMAGENS DO RODAPÉ */
