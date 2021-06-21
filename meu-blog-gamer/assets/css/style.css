@@ -71,7 +71,11 @@ body {
     padding: 5px;
 
 }
-#menu a:hover{
+
+#menu a:hover{    
+    border-style: solid;
+    border-radius: 40px;
+    border-color: rgba(250, 250, 250, 0.727);
     color: gold;
 }
 /* FORMATAÇÃO MENU DO CABEÇALHO */
