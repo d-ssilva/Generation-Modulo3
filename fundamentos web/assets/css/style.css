@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 /* PAGINA INDEX */
 *{
     padding: 0;
@@ -7,7 +8,7 @@
 body {
     background-color: #a87f19;
     background-image: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
-    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Audiowide;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -25,7 +26,22 @@ body {
     font-style: italic;
     padding: 25px;    
 }
-
+.pb{
+    padding-bottom: 20px;
+}
+.pd{
+    padding-right: 20px;
+}
+.p15{
+    padding: 15px;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.borda{
+    border-style: dotted;
+    border-color: rgb(146, 144, 144);
+}
 .alinharTxtE {
     text-align: left;
 }
@@ -40,6 +56,7 @@ body {
 
 /* FORMATAÇÃO MENU DO CABEÇALHO */
 #menu {
+    font-family: Audiowide;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -60,7 +77,7 @@ body {
 /* FORMATAÇÃO MENU DO CABEÇALHO */
 
 /* FORMATAÇÃO MENU FLOOTER */
-#mapaflooter{
+#mapaflooter{    
     display: flex;
     flex-direction: column;
 }
@@ -95,10 +112,7 @@ body {
 }
 /* FORMATAÇÃO MENU FLOOTER */
 
+
 .br50{
     border-radius: 50%;
 }
-.aBord {
-    border-radius: 10%
-}
-/* FORMATAÇÃO DE IMAGENS DO RODAPÉ */
